@@ -103,6 +103,16 @@ const supportedContracts = [
     chainId: '38b20c9055b39035eaee7fdf450ce9b2572024bcc6d4ee8cddd50662a0cdeff1',
     supportedContracts: [],
   },
+  {
+    // 'koy-mainnet'
+    chainId: 'adf3860dc671acafa2e4ce7ab4fd90920a487e8e82a36e8b4364aad5129552cd',
+    supportedContracts: [],
+  },
+  {
+    // 'koy-testnet'
+    chainId: '181e289803751d4e0fc257fd186edaa6df8169e28631f1bf63fc9287a80cfb5f',
+    supportedContracts: [],
+  },
 ];
 
 const defaultValues = {
@@ -350,6 +360,24 @@ const knownChains = [
     node: 'https://testnet.ayetu.net',
     stakedResources: false,
     symbol: 'SYS',
+    tokenPrecision: 4,
+  },
+  {
+    _id: 'koy-mainnet',
+    chainId: 'adf3860dc671acafa2e4ce7ab4fd90920a487e8e82a36e8b4364aad5129552cd',
+    name: 'KOY',
+    node: 'https://api.mainnet.koynetwork.io',
+    stakedResources: false,
+    symbol: 'KOYN',
+    tokenPrecision: 4,
+  },
+  {
+    _id: 'koy-testnet',
+    chainId: '181e289803751d4e0fc257fd186edaa6df8169e28631f1bf63fc9287a80cfb5f',
+    name: 'KOY (Testnet)',
+    node: 'https://api.testnet.koynetwork.io',
+    stakedResources: false,
+    symbol: 'KOYN',
     tokenPrecision: 4,
   },
 ];

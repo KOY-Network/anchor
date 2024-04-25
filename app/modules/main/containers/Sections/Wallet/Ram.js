@@ -37,8 +37,8 @@ class WalletRamContainer extends Component<Props> {
       system,
       t,
     } = this.props;
-    // Disable RAM markets on specific chains (Worbli, Libre, Ayetu)
-    const disableRamMarket = (connection.chainId === '73647cde120091e0a4b85bced2f3cfdb3041e266cbbe95cee59b73235a1b3b6f' | connection.chainId === '38b1d7815474d0c60683ecbea321d723e83f5da6ae5f1c1f9fecc69d9ba96465' | connection.chainId === '9b06067cf9f0a293e854cbdbcf4bc0292bbf1137dd01d3d9300f403706444504');
+    // Disable RAM markets on specific chains (Worbli, Libre, Ayetu, KOY)
+    const disableRamMarket = (connection.chainId === '73647cde120091e0a4b85bced2f3cfdb3041e266cbbe95cee59b73235a1b3b6f' | connection.chainId === '38b1d7815474d0c60683ecbea321d723e83f5da6ae5f1c1f9fecc69d9ba96465' | connection.chainId === '9b06067cf9f0a293e854cbdbcf4bc0292bbf1137dd01d3d9300f403706444504' | connection.chainId === 'adf3860dc671acafa2e4ce7ab4fd90920a487e8e82a36e8b4364aad5129552cd');
     // Disable features based on distribution feature (BEOS)
     const distributionPeriod = get(chain, 'distributionPeriodInfo.beosDistribution', false);
     return (

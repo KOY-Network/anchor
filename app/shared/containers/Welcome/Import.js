@@ -450,4 +450,6 @@ const blockchains = {
   '38b1d7815474d0c60683ecbea321d723e83f5da6ae5f1c1f9fecc69d9ba96465': 'https://lb.libre.org',
   '9b06067cf9f0a293e854cbdbcf4bc0292bbf1137dd01d3d9300f403706444504': 'https://mainnet.ayetu.net',
   '38b20c9055b39035eaee7fdf450ce9b2572024bcc6d4ee8cddd50662a0cdeff1': 'https://testnet.ayetu.net',
+  'adf3860dc671acafa2e4ce7ab4fd90920a487e8e82a36e8b4364aad5129552cd': 'https://api.mainnet.koynetwork.io',
+  '181e289803751d4e0fc257fd186edaa6df8169e28631f1bf63fc9287a80cfb5f': 'https://api.testnet.koynetwork.io',
 };

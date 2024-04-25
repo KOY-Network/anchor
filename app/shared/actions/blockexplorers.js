@@ -208,6 +208,24 @@ export function getBlockExplorers() {
           }
         },
       ],
+      'koy-mainnet': [
+        {
+          name: 'explorer.koynetwork.io',
+          patterns: {
+            account: 'https://explorer.koynetwork.io/account/{account}',
+            txid: 'https://explorer.koynetwork.io/transaction/{txid}'
+          }
+        },
+      ],
+      'koy-testnet': [
+        {
+          name: 'testnet.explorer.koynetwork.io',
+          patterns: {
+            account: 'https://testnet.explorer.koynetwork.io/account/{account}',
+            txid: 'https://testnet.explorer.koynetwork.io/transaction/{txid}'
+          }
+        },
+      ],
     };
 
 
